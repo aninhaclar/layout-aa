@@ -19,7 +19,7 @@ body{
     padding-inline: 64px;
 }
 header{
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,6 +36,41 @@ header{
 main{
     background-color: pink;
     flex-grow: 1;
+}
+.conteudo{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo h1{
+    font-size: 86px;
+}
+.conteudo p{
+    width: 90%;
+font-size: 48px;
+}
+
+.acao button{
+    height:80px;
+    width: 200px;
+}
+
+
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social div{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: rgb(130, 130, 130);
+}
+.imagem{
+    height: 100%;
+    width: 50%;
+    background-color: lightgrey;
 }
 footer{
     background-color: bisque;
